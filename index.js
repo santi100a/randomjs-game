@@ -22,9 +22,9 @@ while (true) {
             guess = random(maximum);
             continue;
         }
-        else if (continueToPlay === "n") {
+        else if (continueToPlay === "n") 
             process.exit(0);
-        }
+        
     }
     else {
         console.log(Chalk.red(`That\'s wrong! Try again, ${playerName}! `));
