@@ -5,4 +5,4 @@
  * @returns The input received from the user.  
  */
 
-export default function input(message: any): string;
+export default function input(message?: any): string;

@@ -3,8 +3,9 @@
  * the numbers generated will eventually repeat, since computers can't
  * make truly random numbers. 
  * 
- * @param max The maximum of the pseudo-random numbers. 
- * @param min The minimum of the pseudo-random numbers (default: 0).
- * @returns The pseudo-random numbers.  
+ * @param max The maximum value of the pseudo-random number. 
+ * @param min The minimum value of the pseudo-random number
+ * (0 by default).
+ * @returns A pseudo-random number.  
  */
 export default function random(max: number, min?: number): number;
