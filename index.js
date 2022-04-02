@@ -16,13 +16,13 @@ while (true) {
         console.log(Chalk.green(`That\'s correct! Well done, ${playerName}! `));
         continueToPlay = input(`Do you want to play again (${Chalk.green("y")}/${Chalk.red("n")}), default is ${Chalk.gray("y")}? `);
         continueToPlay = continueToPlay[0];
-        if (continueToPlay !== "y" && continueToPlay !== "n")
+        if (continueToPlay !== 'y' && continueToPlay !== 'n')
             continueToPlay = 'y';
-        if (continueToPlay === "y") {
+        if (continueToPlay === 'y') {
             guess = random(maximum);
             continue;
         }
-        else if (continueToPlay === "n") 
+        else if (continueToPlay === 'n') 
             process.exit(0);
         
     }
