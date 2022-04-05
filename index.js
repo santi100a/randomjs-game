@@ -18,11 +18,11 @@ while (true) {
         continueToPlay = continueToPlay[0];
         if (continueToPlay !== 'y' && continueToPlay !== 'n')
             continueToPlay = 'y';
-        if (continueToPlay === 'y') {
+        if (continueToPlay === 'y' || continueToPlay === 'Y') {
             guess = random(maximum);
             continue;
         }
-        else if (continueToPlay === 'n')
+        else if (continueToPlay === 'n' || continueToPlay === 'N')
             process.exit(0);
     }
     else {
