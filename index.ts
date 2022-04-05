@@ -1,10 +1,9 @@
 import input from "./lib/readInput.js";
 import random from "./lib/random.js";
 import Chalk from "chalk";
-type Answer = number | null | undefined;
 var playerName: string, continueToPlay: string; 
-var answer: Answer, guess: number;
-const maximum: number = 30;
+var answer: number, guess: number;
+const maximum = 30;
 
 console.clear();
 console.log("Welcome to the Random Number Game. \n");
@@ -23,7 +22,8 @@ while (true) {
             `Do you want to play again (${Chalk.green("y")}/${Chalk.red("n")}), default is ${Chalk.gray("y")}? `
         );
         continueToPlay = continueToPlay[0];
-        if (continueToPlay !== "y" && continueToPlay !== "n") continueToPlay = 'y';
+        if (continueToPlay !== "y" && continueToPlay !== "n") 
+        continueToPlay = 'y';
         
         if (continueToPlay === "y") {
             guess = random(maximum); continue;
