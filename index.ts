@@ -1,9 +1,12 @@
+#! /usr/bin/env node
+
 import input from './lib/readInput.js';
 import random from './lib/random.js';
 import Chalk from 'chalk';
+const maximum = 30;
+
 var playerName: string, continueToPlay: string;
 var answer: number, guess: number;
-const maximum = 30;
 
 console.clear();
 console.log('Welcome to the Random Number Game. \n');
