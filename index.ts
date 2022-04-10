@@ -52,7 +52,7 @@ while (true) {
             You specified a number smaller than 0. 
             Don't do that. Try again.
             `
-        )); 
+        ));
     } 
     else if (guess <= maximum) {
         console.clear();
