@@ -45,4 +45,4 @@ while (true) {
         console.log(Chalk.red(`That\'s wrong! Try again, ${playerName}! `));
         continue;
     }
-}
+} 
