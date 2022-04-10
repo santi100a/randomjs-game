@@ -12,4 +12,4 @@ To run this game, you'll have to:
     <li>Clone this repo by running <code>git clone https://github.com/santi100a/random-number-game-javascript.git</code>. </li>
     <li>Enter the directory and run <code>node .</code>. </li>
     <li>Enjoy the game! </li> 
-</ul>
+</ul> 
