@@ -39,6 +39,7 @@ while (true) {
 
     } 
     else if (guess > maximum) {
+        console.clear();
         console.log(Chalk.cyan(
             `
             You specified a number greater than ${maximum}. 
@@ -47,6 +48,7 @@ while (true) {
         )); 
     } 
     else if (guess < 0) {
+        console.clear();
         console.log(Chalk.magenta(
             `
             You specified a number smaller than 0. 

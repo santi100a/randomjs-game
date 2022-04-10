@@ -29,12 +29,14 @@ while (true) {
             process.exit(0);
     }
     else if (guess > maximum) {
+        console.clear();
         console.log(Chalk.cyan(`
             You specified a number greater than ${maximum}. 
-            Don't do that. Try again.
+            Don't do that. Try again. 
             `));
     }
     else if (guess < 0) {
+        console.clear();
         console.log(Chalk.magenta(`
             You specified a number smaller than 0. 
             Don't do that. Try again.
@@ -45,4 +47,4 @@ while (true) {
         console.log(Chalk.red(`That\'s wrong! Try again, ${playerName}! `));
         continue;
     }
-} 
+}
