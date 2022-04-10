@@ -3,6 +3,7 @@
 import input from './lib/readInput.js';
 import random from './lib/random.js';
 import Chalk from 'chalk';
+
 const maximum = 30;
 
 var playerName: string, continueToPlay: string;
