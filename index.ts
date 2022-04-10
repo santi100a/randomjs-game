@@ -42,7 +42,7 @@ while (true) {
         console.log(Chalk.cyan(
             `
             You specified a number greater than ${maximum}. 
-            Don't do that. Try again.
+            Don't do that. Try again. 
             `
         )); 
     } 
