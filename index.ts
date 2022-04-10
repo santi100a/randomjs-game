@@ -12,12 +12,12 @@ console.clear();
 console.log('Welcome to the Random Number Game. \n');
 playerName = input('What\'s your name? ');
 if (!playerName || !playerName.length) playerName = 'Player';
-guess = random(maximum);
+answer = random(maximum);
 while (true) {
-    answer = Number(
+    guess = Number(
         input(`What\'s your guess (between 0 and ${maximum})? `)
     );
-    if (guess === answer && guess <= maximum) {
+    if (guess === answer) {
         console.clear();
         console.log(Chalk.green(
             `That\'s correct! Well done, ${playerName}! `
