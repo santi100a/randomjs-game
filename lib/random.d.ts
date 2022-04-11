@@ -8,4 +8,5 @@
  * (0 by default).
  * @returns A pseudo-random number.  
  */
-export default function random(max: number, min?: number): number;
+declare function random(max: number, min?: number): number;
+export default random;
