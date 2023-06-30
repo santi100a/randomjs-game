@@ -1,0 +1,6 @@
+# Directories
+node_modules/
+coverage/
+
+# Files
+ignore-*.*

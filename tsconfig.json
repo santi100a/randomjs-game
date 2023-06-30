@@ -1,9 +1,12 @@
 {
-    "compileOnSave": true,
     "compilerOptions": {
-        "target": "ES2018",
-        "module": "ESNext",
-        "allowSyntheticDefaultImports": true,
-        "moduleResolution": "node"
-    }
+        "target": "ES3",
+        "outDir": "dist/",
+        "noImplicitAny": true,
+        "strict": true,
+        "strictNullChecks": true,
+        "strictFunctionTypes": true,
+    },
+    "include": ["src/**/*.ts"],
+    "exclude": ["node_modules"]
 }

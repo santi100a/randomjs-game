@@ -1,14 +1,33 @@
-# Random Number Game in JavaScript
+# Santi's Random Numbers Game
 
-This is a basic command-line based random numbers game, where you have
-to guess the number. If it is wrong, then it gives you an error and
-encourages you to try again; if you manage to guess the right number,
-then it cheers you on and asks you if you want to play again. If you
-answer 'y' then it continues; if you answer 'n', it exits; if you
-specify nothing or something invalid, then it defaults to 'y'.
+## Installation via NPM
 
-To run this game, you'll have to:
+- Using NPM: `npm install -g @santi100/randomjs-game`
+- Using Yarn: `yarn global add @santi100/randomjs-game`
+- Using PNPM: `pnpm install -g @santi100/randomjs-game`
 
-- Clone this repo by running ```git clone https://github.com/santi100a/random-number-game-javascript.git```.
-- Enter the directory and run ```node .```.
-- Enjoy the game!  
+## Usage
+
+### How to Run
+
+Execute `npx @santi100/randomjs-game [options]`. Options are detailed below.
+
+### Flags
+
+`-c, --no-clear`: Never clear the screen.
+`-i, --no-initial-clear`: Don't clear the screen at startup.
+`-g, --no-guess-clear`: Don't clear the screen after every guess.
+`-m, --monochrome`: Don't use colors.
+`-h, --help`: Display help for command.
+
+### Workflow
+
+The game starts by asking you for your name. Type your name or hit ENTER to use the name
+"Player".
+
+After this, the game will ask for your guess. Type a positive whole number
+between 0 and 30 (both inclusive) and hit ENTER.
+
+If your guess is equal to the right answer, the game will congratulate you and ask you to play again.
+If you say no, the game will exit; otherwise, the game will generate a new random answer and
+go back to the point where it asks for your guess.
