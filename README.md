@@ -1,5 +1,19 @@
 # Santi's Random Numbers Game
 
+[![Build Status][build status badge]][actions]
+[![npm homepage][npm homepage badge]][npm homepage]
+[![GitHub stars][gh stars badge]][repo]
+[![License][license badge]][repo]
+
+[build status badge]: https://github.com/santi100a/randomjs-game/actions/workflows/ci.yml/badge.svg
+[npm homepage badge]: https://img.shields.io/npm/v/@santi100/randomjs-game
+[gh stars badge]: https://img.shields.io/github/stars/santi100a/randomjs-game.svg
+[license badge]: https://img.shields.io/github/license/santi100a/randomjs-game.svg
+
+[actions]: https://github.com/santi100a/randomjs-game/actions
+[npm homepage]: https://npmjs.org/package/@santi100/randomjs-game
+[repo]: https://github.com/santi100a/randomjs-game
+
 ## Installation via NPM
 
 - Using NPM: `npm install -g @santi100/randomjs-game`
