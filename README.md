@@ -28,11 +28,11 @@ Execute `npx @santi100/randomjs-game [options]`. Options are detailed below.
 
 ### Flags
 
-`-c, --no-clear`: Never clear the screen.
-`-i, --no-initial-clear`: Don't clear the screen at startup.
-`-g, --no-guess-clear`: Don't clear the screen after every guess.
-`-m, --monochrome`: Don't use colors.
-`-h, --help`: Display help for command.
+- `-c, --no-clear`: Never clear the screen.
+- `-i, --no-initial-clear`: Don't clear the screen at startup.
+- `-g, --no-guess-clear`: Don't clear the screen after every guess.
+- `-m, --monochrome`: Don't use colors.
+- `-h, --help`: Display help for command.
 
 ### Workflow
 
